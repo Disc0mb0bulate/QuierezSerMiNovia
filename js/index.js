@@ -6,7 +6,7 @@ const documentReady = () => {
   const heroButtonNo = document.querySelector('#heroButtonNo');
 
   const nowZomosNobios = () => {
-    alert('💞 Now zomos ParTnEr 💞');
+    alert('💞 Bexos 💞');
     alert('😱Bella y linda eres😱');
     location.href = 'https://www.youtube.com/watch?v=lOD4tHz4A_8';
   };
