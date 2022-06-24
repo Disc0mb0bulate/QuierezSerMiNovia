@@ -20,7 +20,7 @@ const documentReady = () => {
 
   heroButtonSi.addEventListener('click', nowZomosNobios);
   heroButtonNo.addEventListener('touchstart', evitarKCRompanMyBobo);
-  heroButtonNo.addEventListener('mouseover', evitarKCRompanMyBobo);
+  heroButtonNo.addEventListener('touchmove', evitarKCRompanMyBobo);
   
 };
 
