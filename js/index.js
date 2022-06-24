@@ -7,7 +7,7 @@ const documentReady = () => {
 
   const nowZomosNobios = () => {
     alert('💞 Now zomos ParTnEr 💞');
-    alert('😱Nuestra VoDa Is MañaNa😱');
+    alert('😱Bella y linda eres😱');
     location.href = 'https://www.youtube.com/watch?v=lOD4tHz4A_8';
   };
 
@@ -17,8 +17,8 @@ const documentReady = () => {
     heroButtonNo.style.left = (Math.random() * window.innerWidth) + 'px';
   };
 
-  const partner = prompt('🥰 Dyme 2 naMe 🥰');
-  heroTitle.innerHTML += partner + ' ❤';
+  //const partner = prompt('🥰 Dyme 2 naMe 🥰');
+  //heroTitle.innerHTML += partner + ' ❤';
 
   heroButtonSi.addEventListener('click', nowZomosNobios);
   heroButtonNo.addEventListener('mouseover', evitarKCRompanMyBobo);
