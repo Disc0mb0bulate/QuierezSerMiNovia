@@ -17,8 +17,6 @@ const documentReady = () => {
     heroButtonNo.style.left = (Math.random() * window.innerWidth) + 'px';
   };
 
-  //const partner = prompt('🥰 Dyme 2 naMe 🥰');
-  //heroTitle.innerHTML += partner + ' ❤';
 
   heroButtonSi.addEventListener('click', nowZomosNobios);
   heroButtonNo.addEventListener('mouseover', evitarKCRompanMyBobo);
